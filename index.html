@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisielec</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div id="board"><p id="board_word">Hasło</p></div>
+    <div id="container">
+        <div id="gibbet">
+            <img src="img/s0.jpg" alt="Szubienica">
+        </div>
+        <div id="letters"></div>
+        <div style="clear: both;"></div>
+    </div>
+
+    <div class="win hidden">
+        <div class="imgEnding"><img src="img/trophy.png" alt=""></div>
+        <div class="textEnding"><h1 style="margin: 0; padding: 0;">Gratulacje, odgadłeś hasło!!!</h1></div>
+        <div class="tryAgain" onclick="start()">Zagraj Ponownie</div>
+    </div>
+    <div class="lose hidden">
+        <div class="imgEnding"><img src="img/skull.png" alt=""></div>
+        <div class="textEnding"><h1 style="margin: 0; padding: 0;">Niestety przegrałeś, może innym razem...</h1></div>
+        <div class="tryAgain" onclick="start()">Zagraj Ponownie</div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
