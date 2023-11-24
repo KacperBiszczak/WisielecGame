@@ -1,12 +1,11 @@
 // @ts-nocheck
 //Losowanie hasła
-// Test GIT
 
 let passwords = [];
 passwords[0] = ("Gdyby kózka nie skakała, to by nóżki nie złamała.");
-passwords[1] = ("Zytny to szef.");
-passwords[2] = ("Czy Cadiz ogląda anime?");
-passwords[3] = ("Maximek kupuje maximka w silli.");
+passwords[1] = ("Samochód");
+passwords[2] = ("Poduszka");
+passwords[3] = ("Człowiek");
 
 function passwordRandomGenerator(){
     //Maszyna losująca
