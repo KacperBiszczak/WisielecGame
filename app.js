@@ -1,5 +1,6 @@
 // @ts-nocheck
 //Losowanie hasła
+// Test GIT
 
 let passwords = [];
 passwords[0] = ("Gdyby kózka nie skakała, to by nóżki nie złamała.");
